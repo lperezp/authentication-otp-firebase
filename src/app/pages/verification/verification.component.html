@@ -1,6 +1,6 @@
 <div class="container">
     <h1>Verificación de tu número celular</h1>
     <p>Ingresa el código de 6 dígitos que enviamos a su número de celular</p>
-    <input type="number" class="form-control" name="tel" id="tel" aria-label="tel">
-    <button class="button" (click)="verify()">Continuar</button>
+    <input [(ngModel)]="verifyCode" type="number" class="form-control" name="tel" id="tel" aria-label="tel">
+    <button class="button" (click)="validateCode()">Continuar</button>
 </div>
