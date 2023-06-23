@@ -1,9 +1,10 @@
 {
-  "hosting": [
-    {
-      "target": "authentication-otp-firebase",
-      "source": ".",
-      "frameworksBackend": {}
-    }
-  ]
+  "hosting": {
+    "public": "dist/authentication-otp-firebase",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
 }
