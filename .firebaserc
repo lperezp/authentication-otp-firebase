@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "login-angular-otp": {
+      "hosting": {
+        "authentication-otp-firebase": [
+          "login-angular-otp"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "login-angular-otp"
+  }
+}

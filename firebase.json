@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "authentication-otp-firebase",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
